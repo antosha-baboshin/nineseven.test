@@ -5,7 +5,11 @@ use Bitrix\Main\Page\Asset;
 
 ?>
 <!DOCTYPE html>
-<html class="start-page">
+<? if ($_SERVER["REQUEST_URI"] == '/') { ?>
+    <html class="start-page">
+<?php } else { ?>
+    <html class="inner-page">
+<? } ?>
 
 <head>
     <? $APPLICATION->ShowHead() ?>
