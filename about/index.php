@@ -99,6 +99,5 @@ $APPLICATION->SetTitle("О нас");
         <a href="#"><img src="<?= SITE_TEMPLATE_PATH ?>/img/partners/logo_01.png" alt="" /></a>
     </div>
 </div>
-<div class="footer-boofer"></div>
 
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
