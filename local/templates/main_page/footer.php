@@ -1,5 +1,7 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
-
+<? if ($_SERVER["REQUEST_URI"] !== '/') { ?>
+    <div class="footer-boofer"></div>
+<? } ?>
 <div class="footer">
                 <nav>
                     <a href="#">Услуги</a>
