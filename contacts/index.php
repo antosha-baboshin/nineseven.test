@@ -55,23 +55,8 @@ $APPLICATION->SetTitle("Контакты");
 		"EMAIL_TO" => "baboshin.antoha@gmail.com",
 		"EVENT_MESSAGE_ID" => array("7"),
 		"OK_TEXT" => "Спасибо, ваше сообщение принято.",
-		"REQUIRED_FIELDS" => array("NAME","EMAIL","MESSAGE","PHONE"),
+		"REQUIRED_FIELDS" => array("NAME","MESSAGE"),
 		"USE_CAPTCHA" => "N",
         "AJAX_MODE" => "Y"
 	)
-);?>
-<!-- <form action="">
-    <section>
-        <p>Я хочу получить ответ</p>
-        <p><input type="radio" checked="checked" name="answer" value="phone" id="phone_radio" /><label
-                for="phone_radio">по телефону</label></p>
-        <p><input type="radio" name="answer" value="mail" id="mail_radio" /><label for="mail_radio">на электронный
-                ящик</label></p>
-        <div><input type="text" value="" placeholder="Введите номер телефона" /></div>
-        <div><input type="text" value="" placeholder="Как вас зовут" /></div>
-    </section>
-    <section>
-        <div><textarea placeholder="Сообщение"></textarea></div>
-    </section>
-    <p class="submit-form"><input type="button" value="Отправить" /></p>
-</form> --><? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
+);?><? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
