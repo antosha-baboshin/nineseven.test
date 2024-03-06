@@ -23,9 +23,9 @@ input[type="radio"] + label{cursor: pointer; display: block;}
 input[type="radio"] + label::before{content: ""; display: inline-block; height: 16px; width: 16px; margin: -1px 7px 0 0; background: url("../img/radio.png") no-repeat 0 0; vertical-align: text-top; background-position: 0 0;}
 input[type="radio"]:checked + label::before {background-position: 0 -16px;}
 
-input[type="button"],.button{display: inline-block; height: 40px; vertical-align: top; color: #fff; padding: 5px 0 3px; border: none; background: #32924f; border: 2px solid #32924f; width: 212px; text-align: center; cursor: pointer; font: normal 16px/18px 'PTSerifCaptionReg'; text-transform: uppercase; margin: 0;}
-input[type="button"]:hover,.button:hover{background: #fff; color: #32924f;}
-input[type="button"]:active,.button:active{margin-top: 2px; margin-bottom: -2px;}
+input[type="submit"],.button{display: inline-block; height: 40px; vertical-align: top; color: #fff; padding: 5px 0 3px; border: none; background: #32924f; border: 2px solid #32924f; width: 212px; text-align: center; cursor: pointer; font: normal 16px/18px 'PTSerifCaptionReg'; text-transform: uppercase; margin: 0;}
+input[type="submit"]:hover,.button:hover{background: #fff; color: #32924f;}
+input[type="submit"]:active,.button:active{margin-top: 2px; margin-bottom: -2px;}
 .button{height: 18px; padding: 10px 0 8px;}
 .button:hover{text-decoration: none;}
 
