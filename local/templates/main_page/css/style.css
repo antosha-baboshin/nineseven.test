@@ -251,8 +251,8 @@ form .select_wrapper + div > textarea{height: 117px;}
 .pagination_article a{color: #32924f; display: inline-block; vertical-align: middle; padding: 4px 6px; text-decoration: underline; margin: 0 3px;}
 .pagination_article a:hover{text-decoration: none;}
 .pagination_article a.active{color: #fff; background: #32924f; text-decoration: none;}
-.pagination_article a.page_back{padding-left: 15px; float: left; background: url("../img/back.png") no-repeat 0 center;}
-.pagination_article a.page_next{padding-right: 15px; float: right; background: url("../img/next.png") no-repeat 100% center;}
+.pagination_article a.page_back{padding-left: 15px; background: url("../img/back.png") no-repeat 0 center;}
+.pagination_article a.page_next{padding-right: 15px; background: url("../img/next.png") no-repeat 100% center;}
 
 .back_button{padding-left: 20px; background: url("../img/back_ico.png") no-repeat 0 center; text-decoration: underline; font-size: 12px; color: #32924f;}
 .back_button:hover{text-decoration: none;}
